@@ -51,6 +51,9 @@
                 android:value="org.droidupnp.Main" />
         </activity>
         <service android:name="org.droidupnp.model.cling.UpnpService" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>
